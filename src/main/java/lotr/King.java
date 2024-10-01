@@ -6,6 +6,6 @@ import lotr.kickstrategy.NobleKick;
 
 public class King extends Character {
     public King() {
-        super(new Random().nextInt(5, 15), new Random().nextInt(5, 15), new NobleKick());
+        super(new Random().nextInt(5, 16), new Random().nextInt(5, 16), new NobleKick());
     }
 }
